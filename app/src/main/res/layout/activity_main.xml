@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background3"
+    tools:context=".view.MainActivity">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/conv"
+    android:layout_gravity="center"
+    android:layout_marginTop="50dp"
+    android:textSize="25dp"
+    android:textColor="@color/black"
+    android:textStyle="bold"
+    />
+
+<LinearLayout
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="center"
+    android:layout_marginTop="70dp"
+    >
+
+    <ImageView
+        android:id="@+id/imgTND"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/img_tnd"
+        android:layout_marginRight="20dp"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTND"
+        android:hint="@string/txtxhint"
+        android:layout_weight="1"
+        android:textSize="20sp"
+        android:inputType="numberDecimal"/>
+
+</LinearLayout>
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/button_id"
+        android:layout_marginTop="30dp"
+        android:text="@string/button"
+
+
+        />
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+    <TableRow>
+        <ImageView android:background="@drawable/img_eur"
+            android:layout_height="50dp"
+            android:layout_width="50dp"
+            android:layout_marginLeft="50dp"/>
+        <EditText
+            android:id="@+id/txtEuro"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:hint="@string/text_hint1"
+            android:textSize="20sp"
+            android:background="@null"/>
+
+    </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            >
+        <ImageView
+            android:id="@+id/imgusd"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/img_usd"
+            android:layout_marginLeft="50dp"
+            />
+
+        <EditText
+            android:id="@+id/txtUSD"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:hint="@string/text_hint2"
+            android:textSize="20sp"
+            android:background="@null"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            >
+            <ImageView
+                android:id="@+id/imggbp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/img_gbp"
+                android:layout_marginLeft="50dp"
+                />
+
+            <EditText
+                android:id="@+id/txGBP"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:hint="@string/text_hint3"
+                android:textSize="20sp"
+                android:background="@null"/>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

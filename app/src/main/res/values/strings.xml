@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Revesion2</string>
+    <string name="conv">convertisseur de money</string>
+    <string name="txtxhint">montant en tnd</string>
+    <string name="button">Convertir</string>
+    <string name="text_hint1">montant en euro </string>
+    <string name="text_hint2">monant en usd</string>
+    <string name="text_hint3">monant en gbp</string>
+    <string name="titre">Liste des covertisseur</string>
+    <string name="conv1">Convertisseur du temperature</string>
+    <string name="txtxhint4">temperature en c</string>
+    <string name="text_hint5">temperture en F</string>
+</resources>

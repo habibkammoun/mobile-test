@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/_39392491_907560357024693_3361752337900142193_n"
+    tools:context=".view.TempActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/conv1"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+
+        />
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        >
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtC"
+            android:hint="@string/txtxhint4"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            />
+
+
+
+
+
+    </LinearLayout>
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/button_id1"
+        android:layout_marginTop="30dp"
+        android:text="@string/button"
+        android:onClick="convert1"
+
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center">
+        <EditText
+            android:id="@+id/txtF"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:hint="@string/text_hint5"
+            android:textSize="20sp"
+            android:background="@null"
+            android:padding="8dp"/>
+    </LinearLayout>
+</LinearLayout>
